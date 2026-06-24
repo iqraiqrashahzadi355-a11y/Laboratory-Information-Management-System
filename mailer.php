@@ -51,7 +51,7 @@ function limsEmailTemplate($title, $message, $buttonText = '', $buttonLink = '')
 
     return "
     <div style='font-family:Arial,sans-serif;background:#f7f6fb;padding:30px;'>
-        <div style='max-width:500px;margin:0 auto;background:#fff;border-radius:14px;overflow:hidden;border:1px solid #e8e7f0;'>
+        <div style='max-width:100%;background:#fff;border-radius:14px;overflow:hidden;border:1px solid #e8e7f0;'>
             <div style='background:linear-gradient(135deg,#6246ea,#2563eb);padding:24px 30px;'>
                 <div style='font-size:22px;font-weight:900;color:#fff;'><span style='background:rgba(255,255,255,0.2);padding:2px 8px;border-radius:5px;margin-right:3px;'>L</span>IMS</div>
                 <div style='font-size:11px;color:rgba(255,255,255,0.7);margin-top:4px;'>Women University Multan</div>

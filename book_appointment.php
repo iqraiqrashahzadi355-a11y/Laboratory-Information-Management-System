@@ -65,7 +65,7 @@ $appointments = $conn->query("SELECT * FROM Appointments WHERE PatientID=$patien
         .nav-right{display:flex;align-items:center;gap:12px;}
         .patient-badge{background:var(--accent-soft);color:var(--accent);font-size:0.75rem;font-weight:700;padding:4px 12px;border-radius:50px;border:1px solid #d4c8fc;}
         .btn-logout{background:#fef2f2;color:#dc2626;border:1px solid #fecaca;border-radius:50px;padding:6px 16px;font-size:0.82rem;font-weight:600;text-decoration:none;}
-        .main{max-width:700px;margin:0 auto;padding:2rem 1.5rem;flex:1;}
+        .main{max-width:100%;padding:2rem 1.5rem;flex:1;}
         .page-title{font-family:'Syne',sans-serif;font-size:1.6rem;font-weight:800;margin-bottom:0.3rem;}
         .page-sub{color:var(--muted);font-size:0.88rem;margin-bottom:2rem;}
         .card{background:var(--paper);border:1px solid var(--border);border-radius:16px;padding:2rem;margin-bottom:1.5rem;}

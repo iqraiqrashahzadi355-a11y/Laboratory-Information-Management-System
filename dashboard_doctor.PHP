@@ -23,7 +23,7 @@ $latestTests   = $conn->query("
         .hero{background:linear-gradient(135deg,#dc2626,#b91c1c);padding:2rem 2.5rem;color:#fff;}
         .hero h1{font-family:'Syne',sans-serif;font-size:1.8rem;font-weight:800;margin-bottom:0.3rem;}
         .hero p{opacity:0.8;font-size:0.9rem;}
-        .main{max-width:1000px;margin:0 auto;padding:2rem 1.5rem;}
+        .main{max-width:100%;padding:2rem 1.5rem;}
         .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin-bottom:2rem;}
         .stat-card{background:#fff;border:1px solid #e8e7f0;border-radius:14px;padding:1.25rem 1.5rem;}
         .stat-card .num{font-family:'Syne',sans-serif;font-size:2rem;font-weight:800;color:#dc2626;}

@@ -95,7 +95,7 @@ if ($role === 'admin') {
             padding: 2.5rem; color: #fff; position: relative; overflow: hidden;
         }
         .hero::before { content: ''; position: absolute; width: 500px; height: 500px; border-radius: 50%; border: 60px solid rgba(255,255,255,0.06); top: -150px; right: -100px; }
-        .hero-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 2rem; position: relative; z-index: 2; }
+        .hero-inner { max-width:100%; display: flex; align-items: center; justify-content: space-between; gap: 2rem; position: relative; z-index: 2; }
         .hero h1 { font-family: 'Syne', sans-serif; font-size: 1.9rem; font-weight: 800; line-height: 1.15; margin-bottom: 0.3rem; }
         .hero p { opacity: 0.75; font-size: 0.9rem; }
         .hero-stats { display: flex; gap: 1rem; flex-shrink: 0; }
@@ -104,7 +104,7 @@ if ($role === 'admin') {
         .hero-stat .lbl { font-size: 0.7rem; opacity: 0.7; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.06em; }
 
         /* Main */
-        .main { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; flex: 1; }
+        .main { max-width:100%; padding: 2rem 1.5rem; flex: 1; }
         .section-label { font-family: 'Syne', sans-serif; font-size: 0.74rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 1rem; }
 
         /* Action cards */
@@ -154,7 +154,7 @@ if ($role === 'admin') {
             background: var(--ink); color: rgba(255,255,255,0.5);
             padding: 2rem 2.5rem; margin-top: auto;
         }
-        .footer-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+        .footer-inner { max-width:100%; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
         .footer-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.1rem; color: #fff; }
         .footer-logo em { background: var(--accent); color: #fff; font-style: normal; padding: 1px 7px; border-radius: 5px; margin-right: 3px; }
         .footer-links { display: flex; gap: 1.5rem; }

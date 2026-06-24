@@ -49,7 +49,7 @@ $completedTests = $conn->query("SELECT COUNT(*) as t FROM LabTests WHERE Status=
         .hero-bg-circle3 { position: absolute; width: 150px; height: 150px; border-radius: 50%; border: 1px solid rgba(98,70,234,0.15); bottom: 15%; left: 8%; animation: float 8s ease-in-out infinite reverse; }
         @keyframes float { 0%,100%{transform:translateY(0);} 50%{transform:translateY(-20px);} }
 
-        .hero-inner { max-width: 1200px; margin: 0 auto; width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; position: relative; z-index: 2; }
+        .hero-inner { max-width:100%; width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; position: relative; z-index: 2; }
         .hero-badge { display: inline-block; background: rgba(98,70,234,0.2); border: 1px solid rgba(98,70,234,0.4); color: #a78bfa; padding: 6px 18px; border-radius: 50px; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 1.5rem; }
         .hero h1 { font-family: 'Syne', sans-serif; font-size: clamp(2.2rem, 5vw, 3.8rem); font-weight: 800; color: #fff; line-height: 1.1; margin-bottom: 1.25rem; }
         .hero h1 span { color: #a78bfa; }
@@ -70,13 +70,13 @@ $completedTests = $conn->query("SELECT COUNT(*) as t FROM LabTests WHERE Status=
 
         /* STATS */
         .stats-bar { background: var(--ink); padding: 3rem; border-top: 1px solid rgba(255,255,255,0.05); }
-        .stats-inner { max-width: 1000px; margin: 0 auto; display: grid; grid-template-columns: repeat(4,1fr); gap: 2rem; text-align: center; }
+        .stats-inner { max-width:100%; display: grid; grid-template-columns: repeat(4,1fr); gap: 2rem; text-align: center; }
         .stat-item .num { font-family: 'Syne', sans-serif; font-size: 2.5rem; font-weight: 800; color: #a78bfa; line-height: 1; margin-bottom: 6px; }
         .stat-item .lbl { font-size: 0.82rem; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.06em; }
 
         /* SECTIONS */
         section { padding: 6rem 3rem; }
-        .section-inner { max-width: 1100px; margin: 0 auto; }
+        .section-inner { max-width:100%; }
         .section-tag { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); margin-bottom: 0.75rem; }
         .section-title { font-family: 'Syne', sans-serif; font-size: clamp(1.8rem, 4vw, 2.5rem); font-weight: 800; color: var(--ink); margin-bottom: 1rem; line-height: 1.15; }
         .section-sub { font-size: 1rem; color: var(--muted); line-height: 1.7; max-width: 520px; }
@@ -139,7 +139,7 @@ $completedTests = $conn->query("SELECT COUNT(*) as t FROM LabTests WHERE Status=
 
         /* FOOTER */
         footer { background: var(--ink); padding: 3rem; }
-        .footer-inner { max-width: 1100px; margin: 0 auto; }
+        .footer-inner { max-width:100%; }
         .footer-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 2rem; margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid rgba(255,255,255,0.08); flex-wrap: wrap; }
         .footer-brand .footer-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.3rem; color: #fff; margin-bottom: 0.5rem; display: flex; align-items: center; gap: 10px; }
         .footer-brand p { font-size: 0.83rem; color: rgba(255,255,255,0.4); max-width: 240px; line-height: 1.6; }

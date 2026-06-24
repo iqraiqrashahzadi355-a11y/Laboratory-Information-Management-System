@@ -84,7 +84,7 @@ $users = $conn->query("SELECT * FROM Users ORDER BY CreatedAt DESC");
         .hero{background:linear-gradient(135deg,#7c3aed,#4f46e5);padding:2rem 2.5rem;color:#fff;}
         .hero h1{font-family:'Syne',sans-serif;font-size:1.8rem;font-weight:800;margin-bottom:0.3rem;}
         .hero p{opacity:0.8;font-size:0.9rem;}
-        .main{max-width:1100px;margin:0 auto;padding:2rem 1.5rem;}
+        .main{max-width:100%;padding:2rem 1.5rem;}
         .grid{display:grid;grid-template-columns:340px 1fr;gap:1.5rem;align-items:start;}
         .form-card{background:#fff;border:1px solid #e8e7f0;border-radius:14px;padding:1.5rem;}
         .form-card h2{font-family:'Syne',sans-serif;font-size:1rem;font-weight:700;margin-bottom:1.25rem;}

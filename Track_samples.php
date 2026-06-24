@@ -45,7 +45,7 @@ $counts['Completed']  = $counts['Completed']  ?? 0;
         .hero { background: linear-gradient(135deg, #0f172a, #1e3a5f); padding: 2rem 2.5rem; color: #fff; }
         .hero h1 { font-family: 'Syne', sans-serif; font-size: 1.8rem; font-weight: 800; margin-bottom: 0.3rem; }
         .hero p { opacity: 0.7; font-size: 0.9rem; }
-        .main { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .main { max-width:100%; padding: 2rem 1.5rem; }
 
         /* Status cards */
         .status-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2rem; }

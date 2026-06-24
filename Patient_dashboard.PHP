@@ -61,7 +61,7 @@ $pending_tests   = $total_tests - $completed_tests;
         /* Hero */
         .hero { background: linear-gradient(135deg, #6246ea 0%, #2563eb 100%); padding: 2.5rem; color: #fff; position: relative; overflow: hidden; }
         .hero::before { content: ''; position: absolute; width: 500px; height: 500px; border-radius: 50%; border: 60px solid rgba(255,255,255,0.07); top: -150px; right: -100px; }
-        .hero-inner { max-width: 900px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 2rem; position: relative; z-index: 2; }
+        .hero-inner { max-width:100%; display: flex; align-items: center; justify-content: space-between; gap: 2rem; position: relative; z-index: 2; }
         .avatar { width: 60px; height: 60px; border-radius: 50%; background: rgba(255,255,255,0.2); border: 2px solid rgba(255,255,255,0.4); display: flex; align-items: center; justify-content: center; font-family: 'Syne', sans-serif; font-size: 1.5rem; font-weight: 800; color: #fff; flex-shrink: 0; }
         .hero-info h1 { font-family: 'Syne', sans-serif; font-size: 1.7rem; font-weight: 800; margin-bottom: 0.3rem; }
         .hero-info p { opacity: 0.75; font-size: 0.88rem; }
@@ -71,7 +71,7 @@ $pending_tests   = $total_tests - $completed_tests;
         .hero-stat .lbl { font-size: 0.68rem; opacity: 0.7; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.06em; }
 
         /* Main */
-        .main { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; flex: 1; }
+        .main { max-width:100%; padding: 2rem 1.5rem; flex: 1; }
 
         /* Info card */
         .info-card { background: var(--paper); border: 1px solid var(--border); border-radius: 14px; padding: 1.5rem 1.75rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1.25rem; margin-bottom: 1.5rem; }
@@ -106,7 +106,7 @@ $pending_tests   = $total_tests - $completed_tests;
 
         /* Footer */
         footer { background: var(--ink); color: rgba(255,255,255,0.45); padding: 1.5rem 2.5rem; margin-top: auto; }
-        .footer-inner { max-width: 900px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+        .footer-inner { max-width:100%; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
         .footer-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1rem; color: #fff; }
         .footer-logo em { background: var(--accent); color: #fff; font-style: normal; padding: 1px 7px; border-radius: 5px; margin-right: 3px; }
 

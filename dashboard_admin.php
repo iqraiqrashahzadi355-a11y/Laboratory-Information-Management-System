@@ -52,7 +52,7 @@ $recentAudit = $conn->query("SELECT * FROM AuditLog ORDER BY LoggedAt DESC LIMIT
         .hero{background:linear-gradient(135deg,#7c3aed,#4f46e5);padding:2rem 2.5rem;color:#fff;}
         .hero h1{font-family:'Syne',sans-serif;font-size:1.8rem;font-weight:800;margin-bottom:0.3rem;}
         .hero p{opacity:0.8;font-size:0.9rem;}
-        .main{max-width:1200px;margin:0 auto;padding:2rem 1.5rem;}
+        .main{max-width:100%;padding:2rem 1.5rem;}
         .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:2rem;}
         .stat-card{background:#fff;border:1px solid #e8e7f0;border-radius:14px;padding:1.25rem 1.5rem;display:flex;align-items:center;gap:1rem;}
         .stat-icon{width:48px;height:48px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0;}

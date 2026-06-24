@@ -39,7 +39,7 @@ $total = $tests->num_rows;
         .hero { background: linear-gradient(135deg, #1e293b, #334155); padding: 2rem 2.5rem; color: #fff; }
         .hero h1 { font-family: 'Syne', sans-serif; font-size: 1.8rem; font-weight: 800; margin-bottom: 0.3rem; }
         .hero p { opacity: 0.7; font-size: 0.9rem; }
-        .main { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; }
+        .main { max-width:100%; padding: 2rem 1.5rem; }
         .filter-card { background: #fff; border: 1px solid #e8e7f0; border-radius: 14px; padding: 1.25rem 1.5rem; margin-bottom: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; align-items: flex-end; }
         .filter-group { display: flex; flex-direction: column; gap: 0.4rem; }
         .filter-group label { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; color: #72737d; }

@@ -67,7 +67,7 @@ logAction($conn, "Viewed appointments management");
         .hero{background:linear-gradient(135deg,#6246ea,#2563eb);padding:2rem 2.5rem;color:#fff;}
         .hero h1{font-family:'Syne',sans-serif;font-size:1.8rem;font-weight:800;margin-bottom:0.3rem;}
         .hero p{opacity:0.8;font-size:0.9rem;}
-        .main{max-width:1100px;margin:0 auto;padding:2rem 1.5rem;}
+        .main{max-width:100%;padding:2rem 1.5rem;}
         .alert-success{background:#dcfce7;border:1px solid #bbf7d0;border-radius:10px;padding:10px 16px;font-size:0.84rem;color:#15803d;margin-bottom:1rem;}
         .status-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-bottom:1.5rem;}
         .status-card{background:#fff;border:2px solid #e8e7f0;border-radius:14px;padding:1.1rem 1.25rem;text-decoration:none;display:block;transition:transform 0.15s;}
